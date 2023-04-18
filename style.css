@@ -1,0 +1,207 @@
+ 
+header {
+    background: linear-gradient(to right, #1c1c1c, #333333);
+    color: rgb(251, 251, 252);
+    display: flex;
+    justify-content: space-between;                            /*Estilizando o header*/
+    align-items: center;
+    padding: 1rem;
+    margin: 0 auto;
+    left:25%;
+  }
+  
+  header img {
+    height: 10rem; /* ajuste a altura da imagem conforme necessário */
+    border-radius: 50%; /* use uma unidade de medida relativa */
+    max-width: 100%;
+  }
+  
+  h1 {
+    font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 0 #000;
+  letter-spacing: 0.1em;
+  margin: 0;
+  text-transform: uppercase;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 1rem;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  /* Estilizando as seções de notícias */
+  section {
+    margin: 2rem auto;
+    max-width: 800px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+  
+  a {
+    background-color:rgb(88, 86, 83);
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    border-radius: 0.25rem;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  a:hover {
+    background-color: rgb(88, 86, 83);
+  }
+  /* Estilizando o footer */
+  footer {
+    background-color: #1c1c1c;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  
+  body {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .dark-mode {
+    background-color: #000;
+    color: #fff;
+  }
+
+  #dark-mode-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(88, 86, 83);
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    border-radius: 0.25rem;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  #dark-mode-button:hover {
+    background-color: rgb(88, 86, 83);
+  }
+  
+  .tab-container {
+    background-color: rgb(88, 86, 83);
+    position: fixed;
+    display: flex;
+    justify-content:right;
+    margin: auto;
+    max-width: 800px; /* Defina a largura máxima desejada */
+    left: auto;
+    right:0;
+    top: 10px; /* Defina a distância da parte inferior desejada */
+    z-index: 999; /* Defina um índice Z alto para garantir que as abas estejam acima de outros elementos */
+  }
+  
+  .tab-button1 { 
+    background-color: rgb(88, 86, 83);  
+    color: white;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .tab-button2 {
+    background-color: rgb(88, 86, 83);
+    color: white;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 1s;
+  }
+  
+  .tab-button3 { 
+    background-color: rgb(88, 86, 83);
+    color: white;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .tab-button:hover {
+    background-color: rgb(88, 86, 83);
+  }
+  
+  .tab-button.active {
+    background-color: rgb(88, 86, 83);
+  }
+  
+  .tab-content {
+    display: none;
+    padding: 1rem;
+    border: 1px solid rgb(88, 86, 83);
+  }
+
+  .menu {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(88, 86, 83);
+    padding: 10px;
+    color:#ffffff;
+  }
+  
+  form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="submit"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  li {
+    margin-right: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
